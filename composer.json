@@ -22,7 +22,6 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "oro/platform-serialised-fields": "2.3.*",
     "oro/commerce": "1.3.*",
     "bower-asset/cookieconsent": "^3.0"
   },
