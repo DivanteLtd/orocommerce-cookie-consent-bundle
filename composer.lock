@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bcb66d3b9bb05835b487f74c604fa68c",
+    "content-hash": "59ea6ff4d13a311cad4b860700328445",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -562,37 +562,21 @@
         },
         {
             "name": "bower-asset/cookieconsent",
-            "version": "3.0.0",
+            "version": "3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/insites/cookieconsent.git",
-                "reference": "4122e214593b86e9b989d58788b6b2a06f8e06ce"
+                "reference": "966cd4e73b0425a6b7f4f56dfd74a74f6cfbd185"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/insites/cookieconsent/zipball/4122e214593b86e9b989d58788b6b2a06f8e06ce",
-                "reference": "4122e214593b86e9b989d58788b6b2a06f8e06ce",
-                "shasum": ""
+                "url": "https://api.github.com/repos/insites/cookieconsent/zipball/966cd4e73b0425a6b7f4f56dfd74a74f6cfbd185",
+                "reference": "966cd4e73b0425a6b7f4f56dfd74a74f6cfbd185",
+                "shasum": null
             },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "build/cookieconsent.min.js",
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "node_modules",
-                    "bower_components",
-                    "test",
-                    "tests"
-                ]
-            },
+            "type": "bower-asset",
             "license": [
                 "MIT"
-            ],
-            "description": "Insites' cookie consent plugin v2",
-            "keywords": [
-                "cookie",
-                "cookieconsent",
-                "law"
             ]
         },
         {
