@@ -1,0 +1,9 @@
+config:
+    paths:
+        'divantecookieconsent/js/app/modules/cookie-consent-module': 'bundles/divantecookieconsent/js/app/modules/cookie-consent-module.js'
+        'cookieconsent': 'bundles/bowerassets/cookieconsent/src/cookieconsent.js'
+    appmodules:
+        - divantecookieconsent/js/app/modules/cookie-consent-module
+    shim:
+        'cookieconsent':
+            exports: 'window.cookieconsent'

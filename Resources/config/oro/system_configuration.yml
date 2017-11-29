@@ -1,0 +1,55 @@
+system_configuration:
+    groups:
+        cookie_consent:
+            title: divante.cookie_consent.system_configuration.groups.cookie_consent.title
+        cookie_consent_settings:
+            title: divante.cookie_consent.system_configuration.groups.cookie_consent_settings.title
+
+    fields:
+        divante_cookie_consent.background_color:
+            data_type: string
+            type: text
+            options:
+                label: divante.cookie_consent.system_configuration.fields.background_color.label
+        divante_cookie_consent.button_color:
+            data_type: string
+            type: text
+            options:
+                label: divante.cookie_consent.system_configuration.fields.button_color.label
+        divante_cookie_consent.learn_more_url:
+            data_type: string
+            type: text
+            options:
+                label: divante.cookie_consent.system_configuration.fields.learn_more_url.label
+        divante_cookie_consent.message_text:
+            data_type: string
+            type: text
+            options:
+                label: divante.cookie_consent.system_configuration.fields.message_text.label
+        divante_cookie_consent.dismiss_text:
+            data_type: string
+            type: text
+            options:
+                label: divante.cookie_consent.system_configuration.fields.dismiss_text.label
+        divante_cookie_consent.learn_more_text:
+            data_type: string
+            type: text
+            options:
+                label: divante.cookie_consent.system_configuration.fields.learn_more_text.label
+
+    tree:
+        system_configuration:
+            platform:
+                children:
+                    general_setup:
+                        children:
+                            cookie_consent:
+                                children:
+                                    cookie_consent_settings:
+                                        children:
+                                            - divante_cookie_consent.background_color
+                                            - divante_cookie_consent.button_color
+                                            - divante_cookie_consent.message_text
+                                            - divante_cookie_consent.dismiss_text
+                                            - divante_cookie_consent.learn_more_text
+                                            - divante_cookie_consent.learn_more_url

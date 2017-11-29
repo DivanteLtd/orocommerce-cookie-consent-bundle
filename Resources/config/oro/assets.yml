@@ -1,0 +1,9 @@
+assets:
+    css:
+        divantecookieconsent:
+            - bundles/bowerassets/cookieconsent/src/styles/animation.css
+            - bundles/bowerassets/cookieconsent/src/styles/base.css
+            - bundles/bowerassets/cookieconsent/src/styles/layout.css
+            - bundles/bowerassets/cookieconsent/src/styles/media.css
+            - bundles/bowerassets/cookieconsent/src/styles/themes/classic.css
+            - bundles/bowerassets/cookieconsent/src/styles/themes/edgeless.css

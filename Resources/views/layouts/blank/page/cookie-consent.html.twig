@@ -1,0 +1,12 @@
+{% block _divante_cookie_consent_widget %}
+    {% set options = {
+        background_color: oro_config_value('divante_cookie_consent.background_color'),
+    button_color: oro_config_value('divante_cookie_consent.button_color'),
+    message_text: oro_config_value('divante_cookie_consent.message_text'),
+    dismiss_text: oro_config_value('divante_cookie_consent.dismiss_text'),
+    learn_more_url: oro_config_value('divante_cookie_consent.learn_more_url'),
+    learn_more_text: oro_config_value('divante_cookie_consent.learn_more_text'),
+    } %}
+    <div id="divante-cookie-consent" class="cookie-consent"
+         data-page-component-options="{{ options|json_encode }}"></div>
+{% endblock %}

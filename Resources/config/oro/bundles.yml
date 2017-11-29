@@ -1,0 +1,2 @@
+bundles:
+  - { name: Divante\Bundle\CookieConsentBundle\DivanteCookieConsentBundle, priority: 1000 }

@@ -1,0 +1,34 @@
+{
+  "name": "divante-ltd/orocommerce-cookie-consent-bundle",
+  "description": "Cookie Consent for Oro Commerce",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Piotr Belina",
+      "email": "belina.piotr@gmail.com"
+    }
+  ],
+  "repositories": {
+    "composer": {
+      "type": "composer",
+      "url": "https://packagist.orocrm.com"
+    },
+    "asset-packagist": {
+      "type": "composer",
+      "url": "https://asset-packagist.orocrm.com"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "oro/platform-serialised-fields": "2.3.*",
+    "oro/commerce": "1.3.*",
+    "bower-asset/cookieconsent": "3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Divante\\Bundle\\CookieConsentBundle\\": ""
+    }
+  }
+}

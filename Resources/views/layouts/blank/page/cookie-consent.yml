@@ -1,0 +1,8 @@
+layout:
+    actions:
+        - '@setBlockTheme':
+            themes: 'cookie-consent.html.twig'
+        - '@add':
+            parentId: 'page_footer'
+            id: 'divante_cookie_consent'
+            blockType: 'block'

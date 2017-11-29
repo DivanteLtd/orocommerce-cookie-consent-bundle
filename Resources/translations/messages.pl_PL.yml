@@ -1,0 +1,21 @@
+divante:
+    cookie_consent:
+        system_configuration:
+            groups:
+                cookie_consent:
+                    title: Zgoda Cookie
+                cookie_consent_settings:
+                    title: Ustawienia
+            fields:
+                background_color:
+                    label: Kolor tła
+                button_color:
+                    label: Kolor przycisku
+                message_text:
+                    label: Treść wiadomości
+                dismiss_text:
+                    label: Treść przycisku
+                learn_more_text:
+                    label: Polityka prywatności etykieta
+                learn_more_url:
+                    label: Polityka prywatności URL
