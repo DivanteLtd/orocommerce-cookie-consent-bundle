@@ -12,11 +12,6 @@ Divante Cookie Consent is a bundle for Oro Commerce which integrates [Cookie Con
 	- [Standards & Code Quality](#)
 	- [About Authors](#)
 
-## Features
-1. Searching the catalog
-1. Browsing the catalog
-1. Search autocomplete
-
 ## Compatibility
 This module is compatible with Oro Commerce 1.3
 
